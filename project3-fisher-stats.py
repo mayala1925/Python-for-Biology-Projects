@@ -36,7 +36,7 @@ enhanced_kmers = read_fasta_kmers('DownstreamIntron.Enhanced.fasta',5)
 control_kmers = read_fasta_kmers('DownstreamIntron.Control.fasta',5)
 
 # 2) Finding Log2 Enrichment
-# This dictionary turns kmer dictionary with occurences to kmer dictionary with frequencies
+# This function turns kmer dictionary with occurences to kmer dictionary with frequencies
 
 
 def finding_freqs(dictionary):
