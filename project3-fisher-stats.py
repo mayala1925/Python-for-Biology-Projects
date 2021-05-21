@@ -7,6 +7,8 @@
 import math
 import numpy as np
 from scipy.stats import fisher_exact
+import pandas as pd
+import numpy as np
 
 # 1) Writing a function that reads through fasta file and finds all the kmers in the sequences and puts their occurences in a dictionary.
 
